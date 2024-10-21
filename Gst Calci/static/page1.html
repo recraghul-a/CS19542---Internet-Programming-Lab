@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GST Calci</title>
+        <link rel="stylesheet" href="ind1.css">
+    </head>
+    <body>
+        <div class="formContainer">
+            <form id="gstForm">
+              <label for="amount">Amount:</label>
+              <input type="number" id="amount" name="amount" required>
+          
+              <label for="gstPercentage">GST Percentage:</label>
+              <input type="number" id="gstPercentage" name="gstPercentage" required>
+          
+              <label for="taxType">Tax Type:</label>
+              <select id="taxType" name="taxType">
+                <option value="inclusive">Inclusive</option>
+                <option value="exclusive">Exclusive</option>
+              </select>
+              
+              <button type="submit" class ="button">Calculate</button>
+            
+            </form>
+          </div>
+          <script src="gst.js"></script>
+    </body>
+</html>
+
+  </div>

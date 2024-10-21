@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tax Rate Lookup</title>
+    <link rel="stylesheet" href="gs1.css">
+</head>
+<body>
+    <h1>Tax Rate Lookup</h1>
+    <form id="taxRateForm">
+        <label for="productCategory">Product Category:</label>
+        <select id="productCategory" required>
+            <option value="">Select Category</option>
+            <option value="electronics">Electronics</option>
+            <option value="food">Food</option>
+            <option value="clothing">Clothing</option>
+            <option value="services">Services</option>
+            </select>
+        <br>
+
+        <button type="button" onclick="lookupTaxRate()">Lookup Tax Rate</button>
+    </form>
+    <p id="taxRateResult"></p>
+</body>
+<script src="gs11.js"></script>
+</html>

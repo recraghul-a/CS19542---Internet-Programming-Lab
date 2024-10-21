@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  text-align: center; /* Center align content within the card */
+}
+
+.card img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.content {
+  padding: 20px;
+  display: flex; /* Make content flexbox for better alignment */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+
+
+.content h3 {
+  margin-bottom: 10px; /* Adds some space below the heading */
+}
+/* CSS for the menu bar */
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+    padding: 10px;
+  }
+  
+  .topBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topBar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .topBar a {
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+    font-size: 18px;
+  }
+  
+  .topBar a:hover {
+    color: #ff6600; /* Adjust the hover color as needed */
+  }
+  
+  .topBar p {
+    margin: 0;
+    flex-basis: 2;
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+  /* CSS for the form */
+.formContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  #itc-calculator {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #buttonC {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Create rounded corners */
+    cursor: pointer; /* Change cursor to a hand on hover */
+  }
+  
+  #buttonC a {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit the button's color */
+  }
+
+  #buttonB {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Create rounded corners */
+    cursor: pointer; /* Change cursor to a hand on hover */
+  }
+  
+  #buttonB a {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit the button's color */
+  }
+  #buttonA {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Create rounded corners */
+    cursor: pointer; /* Change cursor to a hand on hover */
+  }
+  
+  #buttonA a {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit the button's color */
+  }

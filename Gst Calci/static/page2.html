@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detailed ITC Calculator</title>
+    <link rel="stylesheet" href="gs.css">
+</head>
+<body>
+    <h1>Detailed ITC Calculator</h1>
+    <form id="itcForm">
+        <h2>Seller Details</h2>
+        <label for="sellerProduct">Seller Product:</label>
+        <input type="text" id="sellerProduct" required>
+        <br>
+        <label for="sellerGST">Seller GST Rate:</label>
+        <input type="number" id="sellerGST" required>
+        <br>
+        <label for="sellerAmount">Seller Amount (excluding GST):</label>
+        <input type="number" id="sellerAmount" required>
+        <br>
+
+        <h2>Business Details</h2>
+        <label for="businessProduct">Business Product:</label>
+        <input type="text" id="businessProduct" required>
+        <br>
+        <label for="businessGST">Business GST Rate:</label>
+        <input type="number" id="businessGST" required>
+        <br>
+        <label for="businessAmount">Business Amount (excluding GST):</label>
+        <input type="number" id="businessAmount" required>
+        <br>
+
+        <button type="button" onclick="calculateITC()">Calculate ITC</button>
+    </form>
+    <p id="itcResult"></p>
+</body>
+<script src="gst1.js"></script>
+</html>
